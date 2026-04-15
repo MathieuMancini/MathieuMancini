@@ -14,4 +14,4 @@ C# • JavaScript • CSS • HTML • Powershell • Markdown
 
 ## 🛠 My Favorite Tools
 
-Claude • VSCode • Github • 
+Claude • VSCode • Github • Google Calendar • One Drive
