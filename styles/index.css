@@ -4,9 +4,15 @@ nav ul{
     align-items: center;
     list-style: none; /* removes bullets */
     gap: 5rem;
+    
 }
 
 nav ul a{
     color: black;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none
 }
-
+nav ul a:hover {
+    color: #00375c; 
+    transform: translateY(-2px);
+}
