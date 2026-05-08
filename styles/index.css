@@ -1,3 +1,22 @@
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.header-logo {
+    width: 150px; 
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-logo img {
+    height: 50px; 
+    width: auto;
+    display: block;
+}
+
 nav ul{
     display: flex;
     justify-content: center;
