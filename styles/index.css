@@ -20,13 +20,12 @@
 nav {
     position: fixed;
     top: 0; left: 0; right: 0;
-    z-index: 200;
-    height: 58px;
+    height: 3.5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 2.5rem;
-    background: rgba(12,12,14,0.82);
+    background: rgb(0, 0, 0);
     backdrop-filter: blur(18px);
     border-bottom: 1px solid var(--border);
 }
@@ -35,13 +34,13 @@ nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    list-style: none; /* removes bullets */
+    list-style: none; 
     gap: 5rem;
     
 }
 
 nav ul a{
-    color: black;
+    color: rgb(168, 240, 0);
     font-family: 'Inter', sans-serif;
     text-decoration: none
 }
@@ -49,3 +48,11 @@ nav ul a:hover {
     color: #00375c; 
     transform: translateY(-2px);
 }
+
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 5rem;
+    align-items: start;
+  }
