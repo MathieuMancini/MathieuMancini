@@ -17,6 +17,20 @@
     display: block;
 }
 
+nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 200;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.5rem;
+    background: rgba(12,12,14,0.82);
+    backdrop-filter: blur(18px);
+    border-bottom: 1px solid var(--border);
+}
+
 nav ul{
     display: flex;
     justify-content: center;
