@@ -1,5 +1,8 @@
 html {
   scroll-behavior: smooth;
+  background-color: rgb(12, 12, 14);
+  font-family: 'DM Mono', monospace;
+  
 }
 
 body{
@@ -7,3 +10,14 @@ body{
 
 }
 
+p {
+  color: rgb(160, 157, 152);
+}
+
+h1{
+  color: rgb(160, 157, 152);
+}
+
+span{
+  color: rgb(160, 157, 152);
+}

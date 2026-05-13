@@ -27,7 +27,7 @@ nav {
     padding: 0 2.5rem;
     background: rgb(0, 0, 0);
     backdrop-filter: blur(18px);
-    border-bottom: 1px solid var(--border);
+    border-bottom: 0.5rem solid;
 }
 
 nav ul{
@@ -40,7 +40,7 @@ nav ul{
 }
 
 nav ul a{
-    color: rgb(168, 240, 0);
+    color: rgb(200, 240, 96);
     font-family: 'Inter', sans-serif;
     text-decoration: none
 }
@@ -49,10 +49,101 @@ nav ul a:hover {
     transform: translateY(-2px);
 }
 
+/* about me section*/
 
-.about-grid {
-    display: grid;
-    grid-template-columns: 3fr 2fr;
-    gap: 5rem;
-    align-items: start;
-  }
+.about-me {
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 7rem 2.5rem;
+}
+
+.about-me-grid {
+  display: flex;
+  gap: 5rem;
+  align-items: start;
+}
+
+.about-me-text {
+  flex: 3;
+}
+
+.about-me-text p {
+  color: rgb(160, 157, 152);
+  margin-bottom: 1.3rem;
+  font-size: 0.875rem;
+  line-height: 1.9;
+}
+
+.about-me-text strong {
+  color: rgb(238, 235, 228);
+}
+
+.about-facts {
+  flex: 2;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.fact {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.8rem;
+  background-color: rgb(17, 17, 19);
+  border: 0.05rem solid rgb(40, 40, 46);
+  border-radius: 0.3rem;
+  transition: border-color 0.2s;
+}
+
+.fact:hover {
+  border-color: rgb(60, 60, 70);
+}
+
+.fact-icon {
+  font-size: 1.1rem;
+}
+
+.fact-label {
+  display: block;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  color: rgb(122, 120, 116);
+}
+
+.fact-val {
+  display: block;
+  font-size: 0.8rem;
+  color: rgb(238, 235, 228);
+  text-decoration: none;
+}
+
+.section-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.8rem;
+  margin-bottom: 3.5rem;
+}
+
+.sec-num {
+  font-size: 0.6rem;
+  color: rgb(200, 240, 96);
+  letter-spacing: 0.1em;
+}
+
+.sec-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  color: rgb(238, 235, 228);
+}
+
+.sec-line {
+  flex: 1;
+  height: 0.06rem;
+  background-color: rgba(255, 255, 255, 0.06);
+}
