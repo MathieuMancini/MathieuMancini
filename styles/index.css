@@ -190,3 +190,127 @@ nav ul a:hover {
   color: rgb(238, 235, 228);
 }
 
+.hero-title-dim {
+  color: rgb(122, 120, 116);
+}
+
+.hero-title-dot {
+  color: rgb(200, 240, 96);
+}
+
+.hero-description {
+  color: rgb(160, 157, 152);
+  font-size: 0.9rem;
+  line-height: 1.85;
+  max-width: 26rem;
+  margin-bottom: 2.5rem;
+}
+
+.hero-description strong {
+  color: rgb(238, 235, 228);
+  font-weight: 500;
+}
+
+/* ─── BUTTONS ─── */
+.hero-buttons {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  margin-bottom: 4rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.7rem 1.4rem;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 0.2rem;
+  transition: background-color 0.2s;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-solid {
+  background-color: rgb(200, 240, 96);
+  color: rgb(12, 12, 14);
+}
+
+.btn-solid:hover {
+  background-color: rgb(214, 245, 122);
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: rgb(160, 157, 152);
+  border: 0.1rem solid rgba(255, 255, 255, 0.12);
+}
+
+.btn-outline:hover {
+  color: rgb(238, 235, 228);
+  background-color: rgb(24, 24, 28);
+}
+
+/* ─── STACK ─── */
+.hero-stack {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.stack-label {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: rgb(122, 120, 116);
+}
+
+.stack-list {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.stack-list li {
+  padding: 0.3rem 0.6rem;
+  border: 0.1rem solid rgba(255, 255, 255, 0.12);
+  border-radius: 0.1rem;
+  font-size: 0.6rem;
+  letter-spacing: 0.06em;
+  color: rgb(160, 157, 152);
+}
+
+.terminal {
+  background-color: rgb(17, 17, 19);
+  border: 0.1rem solid rgba(255, 255, 255, 0.12);
+  border-radius: 0.6rem;
+  overflow: hidden;
+}
+
+.terminal-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.8rem 1rem;
+  background-color: rgb(24, 24, 28);
+  border-bottom: 0.1rem solid rgba(255, 255, 255, 0.06);
+}
+
+.dot {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+}
+
+.dot-red    { background-color: rgb(255, 95, 87); }
+.dot-yellow { background-color: rgb(254, 188, 46); }
+.dot-green  { background-color: rgb(40, 200, 64); }
+
