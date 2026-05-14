@@ -148,3 +148,13 @@ nav ul a:hover {
   background-color: rgba(255, 255, 255, 0.06);
 }
 
+/* Main page section*/
+.hero-title {
+  font-family: 'Syne', sans-serif;
+  font-size: clamp(3.2rem, 6rem, 6rem);
+  font-weight: 800;
+  line-height: 0.93;
+  letter-spacing: -0.05em;
+  margin-bottom: 2rem;
+  color: rgb(238, 235, 228);
+}
