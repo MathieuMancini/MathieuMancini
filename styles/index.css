@@ -321,26 +321,18 @@ nav ul a:hover {
   line-height: 2;
 }
 
-.terminal-line {
-  display: flex;
-  gap: 0.6rem;
-}
-
-.terminal-prompt {
-  color: rgb(200, 240, 96);
-  user-select: none;
-}
-
-.terminal-cmd {
-  color: rgb(238, 235, 228);
-}
-
-.terminal-output {
+.terminal-body p {
   color: rgb(160, 157, 152);
   padding-left: 1.3rem;
 }
 
-.terminal-highlight {
+.terminal-body p span {
+  color: rgb(200, 240, 96);
+  padding-left: 0;
+  user-select: none;
+}
+
+.terminal-body .highlight {
   color: rgb(125, 232, 192);
 }
 
