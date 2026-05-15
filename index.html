@@ -9,23 +9,226 @@
         <title>Mathieu Mancini Homepage</title>
     </head>
 
-    <header>
+    <header class="main-header">
         <div class="navigation-header-buttons">
             <nav>
                 <ul>
-                    <li><a href="">Home Page</a></li>
+                    <li><a href="">Home</a></li>
                     <li><a href="#">About Me</a></li>
                     <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact Me</a></li>
+                    <a class="nav-hire" href="mailto:mathieumancini9@gmail.com">Hire me</a>
                 </ul>
+                <div class="header-logo">
+                    <img src="assets/images/MM-Logo.png" alt="Logo">
+                </div>
             </nav>
-        </div>
-
-        <h1>Mathieu Mancini</h1>
+        </div>        
     </header>
 
     <main>
-        <img src="assets/images/placeholder.svg" alt="placeholder">
-    </main>
 
+        <section class="hero">
+            <div class="hero-left">
+
+                <div class="hero-eyebrow">
+                    <span>here we present...</span>
+                </div>
+
+                <h1 class="hero-title">
+                    Mathieu<br>
+                    <span class="hero-title-dim">Mancini<span class="hero-title-dot">.</span></span>
+                </h1>
+
+                <p class="hero-description">
+                    Developer & programmer based in <strong>Montréal, QC</strong>.
+                    I build clean, functional web experiences with <strong>C#, JavaScript, HTML & CSS</strong>.
+                </p>
+
+                <div class="hero-buttons">
+                    <a class="btn btn-solid" href="#projects">View projects</a>
+                    <a class="btn btn-outline" href="#contact">Get in touch</a>
+                </div>
+            </div>
+            
+            <div class="hero-right">
+                <div class="terminal">
+
+                    <div class="terminal-bar">
+                        <div class="dot dot-red"></div>
+                        <div class="dot dot-yellow"></div>
+                        <div class="dot dot-green"></div>
+                            <span class="terminal-title">mathieu@portfolio ~</span>
+                        </div>
+
+                        <div class="terminal-body">
+                            <p><span>$</span> whoami</p>
+                            <p class="highlight">Mathieu Mancini</p>
+
+                            <p><span>$</span>skills.txt</p>
+                            <p class="highlight">C# · JavaScript · HTML · CSS</p>
+                            <p class="highlight">PowerShell · Markdown</p>
+
+                            <p><span>$</span>interests.txt</p>
+                            <p class="highlight">Football 🏈 Programming 💻</p>
+
+                            <p><span>$</span> echo $STATUS</p>
+                            <p class="highlight">Available for hire<span class="terminal-cursor"></span></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>    
+
+
+        <section class="projects">
+
+
+            <div class="section-header">
+                <span class="sec-num">01</span>
+                <h2 class="sec-title">Projects</h2>
+                <div class="sec-line"></div>
+            </div>
+
+            <div class="projects-grid">
+
+                <a class="project-card" href="https://github.com/MathieuMancini" target="_blank">
+                    <div class="project-card-top">
+                        <span class="project-icon">🎮</span>
+                        <span class="project-arrow">↗</span>
+                    </div>
+                    <h3 class="project-name">Dark Maze Game</h3>
+                    <p class="project-desc">A maze game built in Programming 1. Navigate through a dark maze to find the exit.</p>
+                    <ul class="project-tags">
+                        <li>C#</li>
+                    </ul>
+                </a>
+
+                <div class="project-card project-empty">
+                    <div class="project-card-top">
+                        <span class="project-icon">⌚</span>
+                    </div>
+                    <h3 class="project-name">Watch Website</h3>
+                    <p class="project-desc">A watch e-commerce website built with WordPress.</p>
+                    <ul class="project-tags">
+                        <li>Wordpress</li>
+                    </ul>
+                </div>
+
+                <div class="project-card project-empty">
+                    <div class="project-card-top">
+                        <span class="project-icon">🔧</span>
+                    </div>
+                    <h3 class="project-name">Tic Tac Toe Game</h3>
+                    <p class="project-desc">A fully wokring tic tac toe game programmed on visual studio</p>
+                    <ul class="project-tags">
+                        <li>C#</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        
+        <section class="about-me">
+
+            <div class="section-header">
+                <span class="sec-num">02</span>
+                <h2 class="sec-title">About me</h2>
+                <div class="sec-line"></div>
+            </div>
+
+            <div class="about-me-grid">
+
+                <div class="about-me-text">
+                    <p>Hey — I'm <strong>Mathieu</strong>, a developer and football player based in Montréal, QC. I'm currently sharpening my JavaScript skills and building real projects to grow my frontend development craft.</p>
+                    <p>My background in <strong>C#</strong> gives me a solid foundation in programming logic and object-oriented thinking, which I carry into every web project I work on.</p>
+                    <p>I care about writing <strong>clean, readable code</strong> and building interfaces that are intuitive and easy to use. I believe the discipline and teamwork I've developed through sport carries directly over into how I approach collaborative projects.</p>
+                    <p>Currently open to <strong>freelance work and collaborations</strong> — whether that's a small site, a web app, or just help improving something you've already started.</p>
+                </div>
+
+                <ul class="about-facts">
+                    <li class="fact">
+                        <span class="fact-icon">📍</span>
+                        <div>
+                            <span class="fact-label">Location</span>
+                            <span class="fact-val">Montréal, QC</span>
+                        </div>
+                    </li>
+                    <li class="fact">
+                    <span class="fact-icon">📚</span>
+                        <div>
+                            <span class="fact-label">Currently Learning</span>
+                            <span class="fact-val">C#, JavaScript</span>
+                        </div>
+                    </li>
+                    <li class="fact">
+                        <span class="fact-icon">🛠️</span>
+                        <div>
+                            <span class="fact-label">Favourite Tools</span>
+                            <span class="fact-val">VSCode · GitHub · Claude</span>
+                        </div>
+                    </li>
+                    <li class="fact">
+                        <span class="fact-icon">🏈</span>
+                        <div>
+                            <span class="fact-label">Outside Of Code</span>
+                            <span class="fact-val">Football - John Abbot College</span>
+                        </div>
+                    </li>
+                    <li class="fact">
+                        <span class="fact-icon">✉️</span>
+                        <address>
+                            <span class="fact-label">Email</span>
+                            <a class="fact-val" href="mailto:mathieumancini9@gmail.com">mathieumancini9@gmail.com</a>
+                        </address>
+                    </li>
+                </ul>
+            </div>                
+        </section>
+
+
+        <section class="contant">
+
+            <div class="section-header">
+                <span class="sec-num">03</span>
+                <h2 class="sec-title">Contact</h2>
+                <div class="sec-line"></div>
+            </div>
+
+            <div class="contact-box">
+                <div class="contact-left">
+                    <h3 class="contact-title">Let's build<br>something <span>together.</span></h3>
+                    <p class="contact-sub">Open to freelance work, collaborations, or just a chat about a project idea. Reach out anytime — I usually respond within a day.</p>
+                </div>
+
+                <ul class="contact-links">
+                    <li>
+                        <a class="contact-link" href="mailto:mathieumancini9@gmail.com">
+                            <span>✉️</span>
+                            mathieumancini9@gmail.com
+                        </a>
+                    </li>
+                    <li>
+                        <a class="contact-link" href="https://www.linkedin.com/in/mathieu-mancini-063b83388/" target="_blank">
+                            <span>💼</span>
+                            LinkedIn → Mathieu Mancini
+                        </a>
+                    </li>
+                    <li>
+                        <a class="contact-link" href="https://github.com/MathieuMancini" target="_blank">
+                            <span>🐙</span>
+                            github.com/MathieuMancini
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+
+    </main>
 <body>   
