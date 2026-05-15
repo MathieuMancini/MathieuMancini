@@ -27,7 +27,7 @@ nav {
     padding: 0 2.5rem;
     background: rgb(0, 0, 0);
     backdrop-filter: blur(18px);
-    border-bottom: 0.5rem solid;
+    border-bottom: 0.1rem solid rgba(255, 255, 255, 0.06);
 }
 
 nav ul{
@@ -405,11 +405,6 @@ nav ul a:hover {
 .project-card:hover .project-arrow {
   transform: translate(0.2rem, -0.2rem);
   color: rgb(200, 240, 96);
-}
-
-.project-empty {
-  cursor: default;
-  opacity: 0.4;
 }
 
 .project-card-top {

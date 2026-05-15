@@ -7,7 +7,7 @@ html {
 
 body{
     background: url(assets/images/backround-image.png);
-
+    padding-top: 3.5rem;
 }
 
 p {
