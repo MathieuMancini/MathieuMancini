@@ -25,3 +25,52 @@ span{
 li{
   color: rgb(160, 157, 152);
 }
+
+@media (max-width: 768px) {
+
+   nav {
+    height: auto;
+    padding: 1rem 1.5rem;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .header-logo img {
+    height: 40px;
+  }
+
+  /* hero stacks vertically */
+  .hero {
+    flex-direction: column;
+    padding: 4rem 1.5rem 2rem;
+    min-height: auto;
+  }
+
+  /* hide terminal on mobile */
+  .hero-right {
+    display: none;
+  }
+
+  /* projects stack vertically */
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* about stacks vertically */
+  .about-me-grid {
+    flex-direction: column;
+  }
+
+  /* contact stacks vertically */
+  .contact-box {
+    flex-direction: column;
+  }
+
+  /* nav links hide on mobile */
+  nav ul {
+    display: none;
+  }
+
+}
